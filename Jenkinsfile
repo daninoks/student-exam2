@@ -2,7 +2,7 @@ properties([disableConcurrentBuilds()])
 
 pipeline {
     environment {
-        registry = "daninoks/epam-exam"
+        registry = "daninoks/exam"
         registryCredential = 'dockerhub'
     }
     agent {
